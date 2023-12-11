@@ -1,5 +1,4 @@
-# Project Title: Real-Time 3D Reconstruction in VR![image](https://github.com/MunebAli132/Real-Time-3D-Reconstruction-in-VR/assets/63760372/3e7e9756-bd19-42b3-b45f-6b9f898368ba)
-
+# Project Title: Real-Time 3D Reconstruction in VR
 
 ## Overview
 

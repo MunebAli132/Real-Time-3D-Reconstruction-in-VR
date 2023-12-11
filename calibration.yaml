@@ -1,0 +1,57 @@
+%YAML:1.0
+
+#----------------------------------------
+# Camera Parameters
+#----------------------------------------
+File.version: "1.0"
+
+Camera.type: "PinHole"
+Camera.height: 3040
+Camera.width: 4056
+#Camera.newHeight: <resizedHeight>
+#Camera.newWidth: <resizedWidth>
+Camera.fps: 60
+Camera.RGB: 0
+#System.thFarPoints: <maxDepthInMeters>
+
+#----------------------------------------
+# Camera intrinsic parameters
+#----------------------------------------
+Camera1.fx: 4.81 
+Camera1.fy: 4.81
+Camera1.cx: 2028.0
+Camera1.cy: 1520.0
+
+Camera1.k1: 0.0
+Camera1.k2: 0.0
+Camera1.p1: 0.0
+Camera1.p2: 0.0
+
+#------------------------------------------
+#ORB Parameters
+#------------------------------------------
+ORBextractor.nFeatures: 2000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#------------------------------------------
+#Atlas Parameters
+#------------------------------------------
+#System.LoadAtlasFromFile: "~/Documents/ORB-SLAM3/Maps/monocular_woIMU.txt"
+#System.SaveAtlasToFile: "~/Documents/ORB-SLAM3/Maps/monocular_woIMU.txt"
+
+#------------------------------------------
+# Viewer parameters
+#------------------------------------------
+Viewer.KeyFrameSize: 0.1
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 1.0
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.15
+Viewer.CameraLineWidth: 2.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -10.0
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000.0

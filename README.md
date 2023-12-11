@@ -25,7 +25,7 @@ Welcome to our project repository! Our goal is to transform raw mono camera data
    - Unity for VR development
 
 2. **Installation:**
-   - Clone this repository: `git clone https://github.com/your-username/your-repo.git`
+   - Clone this repository .
    - Follow setup instructions in the respective ROS, ORB-SLAM3, and Unity documentation.
 
 3. **Usage:**
